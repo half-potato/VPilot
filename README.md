@@ -1,5 +1,5 @@
 # VPilot
-Scripts and tools to easily communicate with [DeepGTAV](https://github.com/half-potato/DeepGTAV). Modified to retrieve the heading of the car. Use my fork of DeepGTAV for this to work.
+Scripts and tools to easily communicate with [DeepGTAV](https://github.com/half-potato/DeepGTAV). Modified to retrieve the heading of the car. Use my fork of DeepGTAV for this to work. Tutorial [here](simplifyrobotics.wordpress.com/2017/10/04/recording-data-in-gta-v/)
 <img src="http://forococheselectricos.com/wp-content/uploads/2016/07/tesla-autopilot-1.jpg" alt="Self-Driving Car" width="900px">
 
 ## How it works
