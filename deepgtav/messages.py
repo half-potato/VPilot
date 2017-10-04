@@ -15,7 +15,7 @@ class Scenario:
 
 class Dataset:
     def __init__(self, rate=None, frame=None, vehicles=None, peds=None, trafficSigns=None, direction=None, reward=None, 
-            throttle=None, brake=None, steering=None, speed=None, yawRate=None, drivingMode=None, location=None, time=None):
+                 throttle=None, brake=None, steering=None, speed=None, yawRate=None, drivingMode=None, location=None, heading=None, time=None):
         self.rate = rate #Hz
         self.frame = frame #[width, height]
         self.vehicles = vehicles #boolean
@@ -30,6 +30,7 @@ class Dataset:
         self.yawRate = yawRate #boolean
         self.drivingMode = drivingMode #boolean
         self.location = location #boolean
+        self.heading = heading #boolean
         self.time = time #boolean
 
 class Start:
